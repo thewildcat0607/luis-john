@@ -12,12 +12,35 @@
     <h1 id="title">Microverse Trial Survey</h1>
     <p id="description">This is a survey for the Microverse Trial. This short description is to help the user see that this is developed for that purpose. Feel free to fill out the survey below.</p>
     <section id="container">
-    <form id="survery-form">
-    <label>First Name</label>
-    <input  id="name" type="text"></input>
-    <label>Email</label>
-    <input  id="email" type="email"></input>
-    
+    <form id="survey-form">
+    <label id="name-label">* Name </br>
+    <input id="name" type="text" required placeholder="Enter your name"></label></br></br>
+    <label id="email-label">* Email</br>
+    <input type="email" id="email" placeholder="Enter your Email" required></label></br></br>
+    <label id="number-label">Age</br>
+    <input type="number" id="number" placeholder="Age" required min="18" max="100"></label></br></br>
+    <label>Which option describes your current role?</br><select id="dropdown">
+      <option value="Student">Student</option>
+      <option value="Full time job">Full time job</option>
+      <option value="Other">Other</option>
+      </select></label></br></br>
+      
+      <div>
+        <label>Would you recommend our services?</label>
+        <label><input type="radio" name="recommend" value="Definitely"> Definitely</label></br>
+        <label><input type="radio" name="recommend" value="Maybe">Maybe</label></br>
+        <label><input type="radio" name="recommend" value="Not Sure">Not Sure</label></br>
+      </div></br></br>
+        <div>
+          <label>Whats this title</label>>
+          <label><input type="checkbox" name="improved" value="Front-end Projects">front end projects</label></br>
+          <label><input type="checkbox" name="improved" value="Challenges"> Challenges</label></br>
+      </div></br></br>
+      
+      <label>Do you have any suggetions</br></br>
+      <textarea placeholder="Enter your comments here..."></textarea></label></br></br>
+      <button id="submit">submit my resuts</button>
+ 
 
     </form>
     </section>
