@@ -1,0 +1,20 @@
+body {
+    background-color: darkred;
+    text-align: center;
+    padding: 10px 0;
+    
+  }
+
+  label {
+    display: block;
+    margin: 10px 0;
+    
+  }
+
+#survey-form {
+    text-align: center;
+    background-color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
